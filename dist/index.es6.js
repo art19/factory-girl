@@ -1028,7 +1028,7 @@ var FactoryGirl = function () {
         for (var _iterator2 = _getIterator(this.created), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
           var c = _step2.value;
 
-          createdArray.push(c);
+          createdArray.unshift(c);
         }
       } catch (err) {
         _didIteratorError2 = true;
